@@ -1,2 +1,26 @@
 # cross
-Quick cross compiler script for the GNU Compiler Collection.
+
+A quick cross compiler script for the GNU Compiler Collection, great for OS developers.
+
+## Running
+
+To download `binutils` and `gcc` locally, simply run:
+
+```sh
+./cross.sh
+```
+
+To build the compiler into your `$HOME`, pass the script a target architecture:
+
+```sh
+./cross.sh <arch>
+```
+
+## Architectures
+
+### Common
+- i686-elf
+- x86_64-elf
+- arm-eabi
+
+For the full list of supported architectures, visit [here](https://gcc.gnu.org/install/specific.html).
