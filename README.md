@@ -16,7 +16,7 @@ To build the compiler into your `$HOME`, pass the script a target architecture:
 ./cross.sh <arch>
 ```
 
-After building the cross compiler, add this to your path:
+After building the cross compiler, add this to your rc:
 
 ```sh
 export PATH=$PATH:$HOME/cross/bin
